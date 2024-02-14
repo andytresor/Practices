@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table_cal</title>
+    <link rel="stylesheet" href="./table_css.css">
+</head>
+<body>
+      Item:
+<input type="text" name="item" id="item" /><br />
+Quantity:
+<input type="text" name="quantity" id="quantity" /><br />
+Price: FCFA
+<input type="text" name="price" id="price" /><br /><br />
+<input type="button" value="Add Product +" onClick="addRow()" id="add"><br /><br />
+
+
+<table id="table" border="1">
+    <tr>
+        <th>Item</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th>Total</th>
+    </tr>
+</table>
+
+</body>
+<script src="./table_cal.js"></script>
+</html>
